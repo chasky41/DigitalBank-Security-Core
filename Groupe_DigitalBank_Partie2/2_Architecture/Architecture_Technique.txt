@@ -1,0 +1,22 @@
+
+ARCHITECTURE TECHNIQUE DIGITALBANK
+
+1. CHOIX TECHNOLOGIQUES : APPROCHE "DEVSECOPS"
+Nous avons choisi une architecture "Code-First" (Python/Docker) plutôt que No-Code pur.
+POURQUOI ?
+- Sécurité : Les données bancaires restent en local (On-Premise), pas d'envoi vers le Cloud (Make/Zapier).
+- Performance : Le traitement des fraudes se fait en <50ms via Python, contre >500ms via des connecteurs No-Code.
+- Coût : Stack 100% Open Source (PostgreSQL, Python, Metabase).
+
+2. SCHÉMA D'ARCHITECTURE
+[CLIENTS] -> [API PYTHON FLASK (Port 5000)] -> [BASE POSTGRESQL (Port 5432)]
+                                      ^
+                                      |
+                            [DASHBOARD METABASE (Port 3000)]
+                                      |
+                            [MONITORING DOCKER]
+
+3. SÉCURITÉ
+- Chiffrement : AES-256 pour les cartes (pgcrypto).
+- Réseau : Pare-feu UFW strict.
+- Accès : RBAC (Rôles Admin/Analyst) au niveau de la base.

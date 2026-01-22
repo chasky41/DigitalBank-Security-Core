@@ -1,0 +1,2 @@
+# Exécution tous les jours à 02h00 du matin
+0 2 * * * /home/chasky/charaf-project-esis/8_Sauvegarde_DRP/backup_script.sh

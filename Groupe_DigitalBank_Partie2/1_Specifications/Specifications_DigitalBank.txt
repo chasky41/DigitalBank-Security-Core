@@ -1,0 +1,17 @@
+PROJET DIGITALBANK - SPÉCIFICATIONS FONCTIONNELLES
+
+1. PERSONAS (UTILISATEURS CIBLES)
+- Admin Système (Luc) : Veut surveiller l'état des serveurs et gérer les accès.
+- Analyste Sécurité (Sophie) : Veut voir les fraudes en temps réel et bloquer les cartes.
+- Service Client (Marc) : Veut consulter l'historique client pour répondre aux appels.
+
+2. USER STORIES (BESOINS)
+[MUST HAVE]
+- En tant qu'Analyste, je veux recevoir une alerte immédiate si une transaction dépasse 5000€ pour la bloquer.
+- En tant qu'Admin, je veux voir les logs de connexion pour détecter les attaques Brute Force.
+- En tant que Service Client, je veux rechercher un client par son nom pour voir ses dernières transactions.
+
+[SHOULD HAVE]
+- En tant qu'Analyste, je veux un score de risque (IA) associé à chaque transaction.
+- En tant qu'Admin, je veux un dashboard montrant la charge CPU/RAM du serveur.
+

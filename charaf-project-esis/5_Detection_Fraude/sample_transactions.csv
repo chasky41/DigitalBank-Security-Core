@@ -1,0 +1,13 @@
+transaction_id,account_id,amount,merchant_category,location,hour_of_day,day_of_week,is_fraud
+1,101,50.00,Groceries,Paris,14,2,0
+2,102,12.50,Transport,Lyon,9,0,0
+3,101,2500.00,Electronics,Russie,3,6,1
+4,103,5000.00,Jewelry,Dubai,2,5,1
+5,102,45.00,Groceries,Paris,18,3,0
+6,104,10.00,Books,Online,10,1,0
+7,105,3000.00,Gambling,Las Vegas,4,6,1
+8,101,60.00,Restaurant,Paris,20,4,0
+9,106,1500.00,Crypto,Nigeria,1,0,1
+10,103,100.00,Clothes,Marseille,15,2,0
+11,102,20.00,Baker,Paris,8,1,0
+12,107,8000.00,Electronics,China,23,5,1

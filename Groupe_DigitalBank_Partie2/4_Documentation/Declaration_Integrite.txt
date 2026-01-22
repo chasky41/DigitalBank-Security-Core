@@ -1,0 +1,12 @@
+DÉCLARATION D'INTÉGRITÉ DU GROUPE
+
+Nom du groupe : Groupe DigitalBank Security
+Date : 23/01/2026
+
+Je soussigné, Charaf, déclare sur l'honneur que :
+
+1. La répartition des tâches présentée dans le tableau de contributions reflète fidèlement la réalité du travail effectué.
+2. J'ai contribué de manière significative à toutes les phases du projet.
+3. Aucun plagiat n'a été commis. Les sources externes (Documentation PostgreSQL, Scikit-Learn) sont citées.
+4. L'intégralité du code Python et SQL a été testée et validée sur l'environnement Kali Linux.
+
